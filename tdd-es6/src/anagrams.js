@@ -3,7 +3,7 @@ import { getLetterCount } from './letter-count';
 
 export const isAnagram = (str1,str2) => {
 
-    const str1LetterCount = getLetterCount(str1)
+    const str1LetterCount = getLetterCount(str1) // here we are using the IMPORTED function to do our work!!
     const str2LetterCount = getLetterCount(str2)
 
     // const str1Array = str1.split('');
